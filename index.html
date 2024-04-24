@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Oubaye's Portfolio Website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+  
+</head>
+<style>
+    /* Cursor follower style */
+    .cursor-follower {
+        position: fixed;
+        font-size: 24px;
+        color: rgb(236, 195, 28);
+        pointer-events: none;
+        z-index: 9999;
+        transition: transform 0.2s ease-out;
+    }
+</style>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
+        <div class="cursor-follower">
+            <i class="fas fa-place-of-worship"></i>
+        </div>
+    
+        <div class="container">
+            <a class="navbar-brand" href="#">Oubaye</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <!-- main banner -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title">Hi, it's Oubaye</h2>
+                <p class="hero_desc">I am a Computer Science Graduate from Lancaster University, one of the top 10 in the UK</p>
+            </div>
+            </div>
+        </div>
+    </section>
+<!-- about section-->
+<section id="about">
+    <div class="container mt-4 pt-4">
+       
+        <h1 class="text-center">About Me</h1>
+        <div class="row mt-4">
+            <div class="col-lg-4">
+                <img src="images/admin-ajax.jpeg" class="imageAboutPage" alt="About Me">
+            </div>
+            <div class="col-lg-8">
+              
+                <p>
+                    Hello! I'm Oubaye El Ghammat Ghori, a passionate and driven Computer Science student based in Lancaster, United Kingdom. With a Spanish nationality and a flair for technology, I am on a mission to leverage the power of innovation to solve complex challenges and make a positive impact on the world.
+                </p>
+                <div class="row mt-3">
+                    <div class="col-md-6">
+                        <ul>
+                            <li><strong>Name:</strong> Oubaye El Ghammat Ghori</li>
+                            <li><strong>Nationality:</strong> Spanish</li>
+                            <li><strong>Location:</strong> Lancaster, United Kingdom</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul>
+                            <li><strong>Current Year:</strong> Third-year</li>
+                            <li><strong>University:</strong> Lancaster University (one of the TOP 10 in the UK)</li>
+                            <li><strong>Field:</strong> Computer Science</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <p>
+                    Currently in my third year at one of the top 10 universities in the UK, I have immersed myself in the dynamic world of Computer Science. Proficient in a range of programming languages such as Java, C, Python, and more, I've delved into collaborative team projects and individual endeavors, constantly seeking to push the boundaries of what's possible.
+                </p>
+
+                <p>
+                    My internship experience at JORDI HANS DESIGN in Sweden has been enriching, where I had the opportunity to contribute to building a social media app using React and REST APIs. I've also honed my skills in web development by fixing and creating websites for clients. Presenting progress updates on our app to the team has further strengthened my communication and project management abilities.
+                </p>
+
+                <div class="row mt-3">
+                    <div class="col-md-6">
+                        <h5>Technical Skills</h5>
+                        <ul>
+                            <li>Team Work</li>
+                            <li>Self-Motivated</li>
+                            <li>Problem Solving</li>
+                            <li>Planning and Coordination</li>
+                            <li>Organization and Time Management</li>
+                            <li>Communication</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h5>Languages</h5>
+                        <ul>
+                            <li>C</li>
+                            <li>Python/Django</li>
+                            <li>React.js</li>
+                            <li>Java</li>
+                            <li>HTML/CSS/PHP</li>
+                            <li>JavaScript/Node.js</li>
+                            <li>MySQL/SQLite</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <p>
+                    In pursuit of excellence, I'm currently working towards a Bachelor's degree in Computer Science from Lancaster University, aiming for a First-Class Honors. My academic journey has been supplemented by a diverse range of courses, from Advanced Programming to Human-Computer Interactions, equipping me with a solid foundation in various facets of Computer Science.
+                </p>
+
+                <p>
+                    As a trilingual individual, I am fluent in English, proficient in French, and a native speaker of Spanish. This multicultural background fuels my passion for understanding diverse perspectives and collaborating across borders.
+                </p>
+
+                <p>
+                    If you share a passion for technology, innovation, or simply want to connect, feel free to reach out! I'm always open to new opportunities, collaborations, and discussions.
+                </p>
+
+                <p>
+                    Thank you for visiting my portfolio. Let's embark on this exciting journey of exploration and creativity together!
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- services section-->
+    <section id="services">
+        <div class="container">
+            <h1 class="text-center">Expertise</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fab servicesIcon fa-react"></i>
+                            <h4 class="card-title mt-3">App development</h4>
+                            <p class="card-text mt-3">The tasks during my internship involved building apps using react.js, along with rest APIs for backend development.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fab servicesIcon fa-internet-explorer'></i>
+                            <h4 class="card-title mt-3">Website development</h4>
+                            <p class="card-text mt-3">Mulitple projects in both University and my internship involved building and maintaining websites.
+                                technologies used : JavaScript, HTML/CSS, React.js, PHP.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fab servicesIcon fa-ethereum'></i>
+                            <h4 class="card-title mt-3">BlockChain networks</h4>
+                            <p class="card-text mt-3">My last year project in the University invloved extending a blockchain simulator that included sharded etheruem transactions and improving them by reducing its costly transactions and reaching perfect load balance across the blockchain network.
+                                technologies used : Java, Maven, Python, Docker.
+                        
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+
+
+
+    <!-- portfolio section-->
+    <section id="portfolio">
+        <div class="container mt-3">
+            <h1 class="text-center">Portfolio</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/lunar_lander.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Lunar Lander in C</h4>
+                            <p class="card-text">The famous lunar lander game written in C ncurses library</p>
+                            <div class="text-center">
+                                <a href="https://github.com/obeyyyy/lunar-lander" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/bitcoin.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Next gen Blockchain consensus protocols research</h4>
+                            <p class="card-text">Using jabs (just another blockchain protocol),my research aimed to extend the simulator appropiately to decrease the amount of costly cross-shard Euthereum transactions, and reach perfect load balance across all shards in the blockchain network.</p>
+                            <div class="text-center">
+                                <a href="https://github.com/obeyyyy/SCC300-TYP/tree/first" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/image.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Simple Bank GUI</h4>
+                            <p class="card-text">A simple banking application built with java GUI, while you can deposit, withdraw and check your balance.</p>
+                            <div class="text-center">
+                                <a href="https://github.com/obeyyyy/bank-app-system" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+
+    <!-- contact section-->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact Me</h1>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+                    <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+                        <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Lancaster+University&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                            </iframe>
+                        </div>
+                        <a class="googlemaps-html" href="https://www.embed-map.com" id="get-data-forembedmap">https://www.embed-map.com</a>
+                        <style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
+                        </style>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- form fields -->
+                    <form>
+                        <input type="text" class="form-control form-control-lg" placeholder="Name">
+                        <input type="email" class="form-control mt-3" placeholder="Email">
+                        <input type="text" class="form-control mt-3" placeholder="Subject">
+                        <div class="mb-3 mt-3">
+                            <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                        </div>
+                    </form>
+                    <button type="button" class="btn btn-success mt-3">Contact Me</button>
+                    
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- footer section-->
+    <footer id="footer">
+        <div class="container-fluid">
+            <!-- social media icons -->
+            <div class="social-icons mt-4">
+                <a href="https://www.instagram.com/" target="the_oubaye"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/" target="https://www.linkedin.com/in/oubaye-el-ghammat-ghori-68a50a213/"><i class="fab fa-linkedin"></i></a>
+              
+            </div>
+        </div>
+    </footer>
+
+    <!-- load javascript after loading all html content -->
+    <script src="script/script.js"></script>
+
+</body>
+
+</html>
