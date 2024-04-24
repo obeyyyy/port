@@ -11,6 +11,17 @@
     position:relative;
 }
 
+/* Styles for the rocket projectile */
+.rocket-projectile {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10px; /* Adjust size as needed */
+    color: #ff8000; /* Adjust color as needed */
+    pointer-events: none; /* Disable click events on projectile */
+}
+
 .projectile {
     position: fixed;
     font-size: 16px; /* Adjust size as needed */

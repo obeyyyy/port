@@ -39,9 +39,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Shoot projectile on click
     document.addEventListener("click", function(e) {
-        const projectile = document.createElement("div");
-        projectile.textContent = " --) ";
-        projectile.classList.add("projectile");
+        const projectile = document.createElement("i");
+        projectile.classList.add("rocket-projectile", "fas", "fa-rocket"); // Add rocket icon class
         projectile.style.left = e.clientX + "px";
         projectile.style.top = e.clientY + "px";
         document.body.appendChild(projectile);
