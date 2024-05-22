@@ -1,25 +1,21 @@
-// add class navbarDark on navbar scroll
-const header = document.querySelector('.navbar');
-console.log(header)
 window.onscroll = function() {
-    const top = window.scrollY;
-    if(top >=100) {
-        header.classList.add('navbarDark');
+    const image = document.getElementById('imageAboutPage');
+    const navbarBrand = document.querySelector('.navbar-brand');
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+      image.classList.add('shrink');
+      document.querySelector('.navbar').classList.add('navbarDark');
+    } else {
+      image.classList.remove('shrink');
+      document.querySelector('.navbar').classList.remove('navbarDark');
     }
-    else {
-        header.classList.remove('navbarDark');
-    }
-}
-// collapse navbar after click on small devices
-const navLinks = document.querySelectorAll('.nav-item')
-const menuToggle = document.getElementById('navbarSupportedContent')
+  };
 
-navLinks.forEach((l) => {
-    l.addEventListener('click', () => { new bootstrap.Collapse(menuToggle).toggle() })
-})
-
-
-
+  // collapse navbar after click on small devices
+  const navLinks = document.querySelectorAll('.nav-item');
+  const menuToggle = document.getElementById('navbarSupportedContent');
+  navLinks.forEach((l) => {
+    l.addEventListener('click', () => { new bootstrap.Collapse(menuToggle).toggle() });
+  });
 
 
 document.addEventListener("DOMContentLoaded", function() {
